@@ -18,14 +18,6 @@ sudo apt install code
     npm install -D cypress
     
 
-
-## Para instalar o cypress na versão específica do projeto:
-
-
-    npm install cypress@3.6.0
-    
-
-
 ## Configurar o arquivo "package.json" para abrir o cypress:
 
 
