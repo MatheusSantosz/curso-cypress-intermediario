@@ -4,7 +4,9 @@
   "description": "[Curso intermediário de automação de testes com Cypress](http://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-intermediario) da Escola Talking About Testing.",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "cypress": "cypress run",
+    "cypress:chrome": "cypress run -b chrome",
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
