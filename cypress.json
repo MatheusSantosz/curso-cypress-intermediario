@@ -1,5 +1,13 @@
 {
-    "baseUrl": "http://localhost:8080/"
+        "extends":"./base.jason",
+    "$schema":  "https://on.cypress.io/cypress.schema.json",
+    "baseUrl":"http://localhost:8080/",
+    "projectId": "pcy17v",
+    "env":{
+        "user": "matheuss-cypress"  
+      },
+          "experimentalSourceRewriting": true
+       
+    
 }
-
 
